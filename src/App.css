@@ -82,7 +82,7 @@ img{
   border-right: 1px solid rgb(130, 128, 128);
   display: flex;
   width: 14.285%;
-  padding: 0.3rem 1rem;
+  padding: 0.3rem 0.6rem;
   justify-content: flex-end;
 }
 .today-color-day{
