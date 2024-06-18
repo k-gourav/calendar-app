@@ -7,7 +7,7 @@ function App() {
   const [currentMonth, setCurrentMonth] = useState(todayDate.getMonth())
   const [currentYear, setCurrentYear] = useState(todayDate.getFullYear())
   const previousMonthNavigate = () => {
-    if (!currentMonth){
+    if (currentMonth){
       setCurrentMonth(currentMonth - 1)
   }
   else{
