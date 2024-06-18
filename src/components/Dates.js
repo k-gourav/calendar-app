@@ -13,10 +13,8 @@ const Dates = ({ currentMonth, currentYear }) => {
           </div> : <div key={day} className="date-content">
           {day}
         </div>
-          
         ))}
       </div>
-      {/* <div>{firstDay}</div> */}
     </>
   );
 };

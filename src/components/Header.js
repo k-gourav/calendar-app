@@ -1,7 +1,6 @@
 import '../App.css'
 import arrow from '../assets/arrow-month.svg'
 import { month } from './constant'
-// {currentMonth, currentYear, nextYear, nextMonth, prevYear, prevMonth}
 
 const Header = ({currentMonth, currentYear, previousMonthNavigate, nextMonthNavigate, todayDay}) => {
     return (
@@ -15,8 +14,6 @@ const Header = ({currentMonth, currentYear, previousMonthNavigate, nextMonthNavi
                     <button className="next-month" onClick={nextMonthNavigate}><img src={arrow} alt="arrow-button" /></button>
                 </div>
                 <div className="month">
-                    {/* <p>{currentMonth}</p>
-                    <p>{currentYear}</p> */}
                     <p>{month[currentMonth]},</p>
                     <p>{currentYear}</p>
                 </div>
