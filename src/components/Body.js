@@ -1,12 +1,12 @@
 import ListOfWeeks from "./ListOfWeeks";
 import Dates from "./Dates"
 
-const Body = () => {
+
+const Body = ({currentMonth, currentYear}) => {
     return (
         <>
         <ListOfWeeks />
-        {/*January*/}
-        <Dates currentMonth="0" currentYear="2024" />   
+        <Dates currentMonth={currentMonth} currentYear={currentYear} />
         </>
     )
 }

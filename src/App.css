@@ -11,7 +11,6 @@ body{
 }
 
 /* HEADER SECTION */
-
 .header-section{
   display: flex;
   justify-content: space-between;
@@ -65,10 +64,24 @@ img{
 .day-container div{
   padding: 1rem 3rem;
   border-top: 0;
-  border-bottom: 1px solid;
-  border-right: 1px solid;
+  border-bottom: 1px solid rgb(130, 128, 128);
+  border-right: 1px solid rgb(130, 128, 128);
   font-size: 1.2rem;
   width: 20%;
   display: flex;
   justify-content: center;
+}
+.date-container{
+  display: flex;
+  flex-wrap: wrap;
+  height: 60vh;
+}
+.date-content{
+  border-top: 0;
+  border-bottom: 1px solid rgb(130, 128, 128);
+  border-right: 1px solid rgb(130, 128, 128);
+  display: flex;
+  width: 14.285%;
+  padding: 0.3rem 1rem;
+  justify-content: flex-end;
 }
