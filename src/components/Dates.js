@@ -21,7 +21,7 @@ const Dates = ({ currentMonth, currentYear }) => {
               {day}
             </div>
           ) : (
-            <div key={index} className="date-content">
+            <div key={index} className={day === 1 ? "date-content first-content" : "date-content"}>
               {day}
             </div>
           )
