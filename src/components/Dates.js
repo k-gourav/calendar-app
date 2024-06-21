@@ -6,7 +6,7 @@ const Dates = ({ currentMonth, currentYear }) => {
     ...Array.from({ length: firstDayOfMonth }, () => ""),
     ...Array.from({ length: daysInMonth }, (_, i) => i + 1),
   ];
-  // const daysArray = [...Array(daysInMonth).keys()].map((i) => i + 1);
+
 
   return (
     <>
@@ -21,7 +21,12 @@ const Dates = ({ currentMonth, currentYear }) => {
               {day}
             </div>
           ) : (
-            <div key={index} className={day === 1 ? "date-content first-content" : "date-content"}>
+            <div
+              key={index}
+              className={
+                day === 1 ? "date-content first-content" : "date-content"
+              }
+            >
               {day}
             </div>
           )
@@ -32,4 +37,3 @@ const Dates = ({ currentMonth, currentYear }) => {
 };
 
 export default Dates;
-// + new Date(new Date().setDate(1)).getDay()
