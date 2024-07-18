@@ -1,5 +1,5 @@
 import ListOfWeeks from "./ListOfWeeks";
-import Dates from "./Dates"
+import Dates from "./Dates";
 
 
 const Body = ({currentMonth, currentYear}) => {
